@@ -1,0 +1,174 @@
+<svg width="900" height="700" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="phase1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="phase2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f093fb;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f5576c;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="phase3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4facfe;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00f2fe;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="phase4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#43e97b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#38f9d7;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="phase5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fa709a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#fee140;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="phase6" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#a8edea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#fed6e3;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="900" height="700" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="450" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#2c3e50">隐秘联盟游戏流程图</text>
+  
+  <!-- Phase 1: Preparation -->
+  <rect x="50" y="80" width="200" height="80" rx="10" fill="url(#phase1)" stroke="#5a67d8" stroke-width="2"/>
+  <text x="150" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">1. 准备阶段</text>
+  <text x="150" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">创建/加入房间</text>
+  <text x="150" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">等待玩家(3-10人)</text>
+  <text x="150" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">房主开始游戏</text>
+  
+  <!-- Arrow 1 -->
+  <polygon points="260,120 290,120 280,140" fill="#34495e"/>
+  
+  <!-- Phase 2: Role Assignment -->
+  <rect x="300" y="80" width="200" height="80" rx="10" fill="url(#phase2)" stroke="#e53e3e" stroke-width="2"/>
+  <text x="400" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">2. 角色分配</text>
+  <text x="400" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">随机分配加密角色</text>
+  <text x="400" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">玩家获得角色信息</text>
+  <text x="400" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">初始化游戏状态</text>
+  
+  <!-- Arrow 2 -->
+  <polygon points="510,120 540,120 530,140" fill="#34495e"/>
+  
+  <!-- Phase 3: Day Phase -->
+  <rect x="550" y="80" width="200" height="80" rx="10" fill="url(#phase3)" stroke="#3182ce" stroke-width="2"/>
+  <text x="650" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">3. 白天阶段</text>
+  <text x="650" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">玩家自由讨论</text>
+  <text x="650" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">分析可疑行为</text>
+  <text x="650" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">制定策略 (5分钟)</text>
+  
+  <!-- Arrow 3 (down) -->
+  <polygon points="650,170 650,200 630,190" fill="#34495e"/>
+  
+  <!-- Phase 4: Voting Phase -->
+  <rect x="550" y="210" width="200" height="80" rx="10" fill="url(#phase4)" stroke="#38a169" stroke-width="2"/>
+  <text x="650" y="235" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">4. 投票阶段</text>
+  <text x="650" y="255" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">匿名投票淘汰玩家</text>
+  <text x="650" y="270" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">统计投票结果</text>
+  <text x="650" y="285" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">执行淘汰 (3分钟)</text>
+  
+  <!-- Arrow 4 (left) -->
+  <polygon points="540,250 510,250 520,230" fill="#34495e"/>
+  
+  <!-- Phase 5: Night Phase -->
+  <rect x="300" y="210" width="200" height="80" rx="10" fill="url(#phase5)" stroke="#d69e2e" stroke-width="2"/>
+  <text x="400" y="235" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">5. 夜晚阶段</text>
+  <text x="400" y="255" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">特殊角色使用技能</text>
+  <text x="400" y="270" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">渗透者执行消除</text>
+  <text x="400" y="285" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">处理所有行动 (2分钟)</text>
+  
+  <!-- Arrow 5 (left) -->
+  <polygon points="290,250 260,250 270,230" fill="#34495e"/>
+  
+  <!-- Phase 6: Settlement -->
+  <rect x="50" y="210" width="200" height="80" rx="10" fill="url(#phase6)" stroke="#805ad5" stroke-width="2"/>
+  <text x="150" y="235" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">6. 结算判定</text>
+  <text x="150" y="255" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">检查胜利条件</text>
+  <text x="150" y="270" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">更新游戏状态</text>
+  <text x="150" y="285" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">下一轮或结束</text>
+  
+  <!-- Decision Diamond -->
+  <polygon points="150,320 200,350 150,380 100,350" fill="#ffd700" stroke="#f6ad55" stroke-width="2"/>
+  <text x="150" y="355" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#8b4513">游戏结束?</text>
+  
+  <!-- Arrow back to Day Phase -->
+  <path d="M 100 350 Q 30 350 30 120 Q 30 80 550 80" fill="none" stroke="#34495e" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <text x="30" y="235" font-family="Arial, sans-serif" font-size="12" fill="#34495e" transform="rotate(-90 30 235)">继续游戏</text>
+  
+  <!-- Arrow to Game End -->
+  <polygon points="150,390 150,420 130,410" fill="#34495e"/>
+  <text x="170" y="410" font-family="Arial, sans-serif" font-size="12" fill="#34495e">是</text>
+  
+  <!-- Game End -->
+  <rect x="50" y="430" width="200" height="60" rx="10" fill="#e53e3e" stroke="#c53030" stroke-width="2"/>
+  <text x="150" y="450" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">游戏结束</text>
+  <text x="150" y="470" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">宣布获胜方</text>
+  <text x="150" y="485" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">统计数据</text>
+  
+  <!-- Role Icons and Descriptions -->
+  <g>
+    <text x="450" y="350" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2c3e50">角色系统</text>
+    
+    <!-- Guardian -->
+    <circle cx="350" cy="380" r="25" fill="#4299e1" stroke="#3182ce" stroke-width="2"/>
+    <text x="350" y="385" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">🛡️</text>
+    <text x="350" y="415" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">守护者</text>
+    
+    <!-- Infiltrator -->
+    <circle cx="420" cy="380" r="25" fill="#e53e3e" stroke="#c53030" stroke-width="2"/>
+    <text x="420" y="385" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">🗡️</text>
+    <text x="420" y="415" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">渗透者</text>
+    
+    <!-- Detective -->
+    <circle cx="490" cy="380" r="25" fill="#38a169" stroke="#2f855a" stroke-width="2"/>
+    <text x="490" y="385" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">🔍</text>
+    <text x="490" y="415" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">侦探</text>
+    
+    <!-- Merchant -->
+    <circle cx="560" cy="380" r="25" fill="#d69e2e" stroke="#b7791f" stroke-width="2"/>
+    <text x="560" y="385" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">💰</text>
+    <text x="560" y="415" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">商人</text>
+    
+    <!-- Hacker -->
+    <circle cx="630" cy="380" r="25" fill="#805ad5" stroke="#6b46c1" stroke-width="2"/>
+    <text x="630" y="385" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">💻</text>
+    <text x="630" y="415" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">黑客</text>
+  </g>
+  
+  <!-- Victory Conditions -->
+  <g>
+    <text x="450" y="470" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2c3e50">胜利条件</text>
+    
+    <rect x="320" y="480" width="260" height="80" rx="5" fill="#f7fafc" stroke="#e2e8f0" stroke-width="1"/>
+    <text x="330" y="500" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">• 守护者阵营：消灭所有渗透者</text>
+    <text x="330" y="520" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">• 渗透者阵营：渗透者数量 ≥ 守护者数量</text>
+    <text x="330" y="540" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">• 中立角色：根据特定条件判定</text>
+  </g>
+  
+  <!-- Privacy Features -->
+  <g>
+    <text x="450" y="600" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2c3e50">隐私保护特性</text>
+    
+    <rect x="50" y="610" width="800" height="60" rx="5" fill="#ffd700" opacity="0.2" stroke="#f6ad55" stroke-width="1"/>
+    <text x="70" y="630" font-family="Arial, sans-serif" font-size="12" fill="#8b4513">🔐 角色身份加密</text>
+    <text x="200" y="630" font-family="Arial, sans-serif" font-size="12" fill="#8b4513">🔐 资源数量加密</text>
+    <text x="330" y="630" font-family="Arial, sans-serif" font-size="12" fill="#8b4513">🔐 投票选择加密</text>
+    <text x="460" y="630" font-family="Arial, sans-serif" font-size="12" fill="#8b4513">🔐 技能目标加密</text>
+    <text x="590" y="630" font-family="Arial, sans-serif" font-size="12" fill="#8b4513">🔐 联盟关系加密</text>
+    
+    <text x="70" y="650" font-family="Arial, sans-serif" font-size="12" fill="#8b4513">🛡️ 防MEV攻击</text>
+    <text x="200" y="650" font-family="Arial, sans-serif" font-size="12" fill="#8b4513">🛡️ 抗前置运行</text>
+    <text x="330" y="650" font-family="Arial, sans-serif" font-size="12" fill="#8b4513">🛡️ 公平游戏</text>
+    <text x="460" y="650" font-family="Arial, sans-serif" font-size="12" fill="#8b4513">🛡️ 去中心化</text>
+    <text x="590" y="650" font-family="Arial, sans-serif" font-size="12" fill="#8b4513">🛡️ 实时验证</text>
+  </g>
+  
+  <!-- Arrow marker definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#34495e" />
+    </marker>
+  </defs>
+</svg>

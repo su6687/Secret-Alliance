@@ -1,0 +1,160 @@
+<svg width="1200" height="800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="fheGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="encryptGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f093fb;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f5576c;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="blockchainGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4facfe;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00f2fe;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="shieldGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#ffeaa7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#fdcb6e;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="800" fill="#f8f9fa"/>
+  
+  <!-- Title Section -->
+  <rect x="0" y="0" width="1200" height="100" fill="url(#fheGradient)"/>
+  <text x="600" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="white">隐秘联盟 - FHEVM隐私保护技术</text>
+  <text x="600" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="rgba(255,255,255,0.9)">Fully Homomorphic Encryption on Ethereum Virtual Machine</text>
+  
+  <!-- Central Shield Icon -->
+  <g transform="translate(550, 150)">
+    <circle cx="50" cy="50" r="60" fill="url(#shieldGradient)" stroke="#e17055" stroke-width="4"/>
+    <text x="50" y="65" text-anchor="middle" font-family="Arial, sans-serif" font-size="48" fill="#2d3436">🛡️</text>
+    <text x="50" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2d3436">FHE保护核心</text>
+  </g>
+  
+  <!-- Privacy Features - Left Side -->
+  <g>
+    <text x="50" y="180" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#2c3e50">🔐 隐私保护特性</text>
+    
+    <!-- Encrypted Roles -->
+    <rect x="50" y="200" width="400" height="80" rx="10" fill="url(#encryptGradient)" opacity="0.9"/>
+    <text x="70" y="225" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white">加密角色身份</text>
+    <text x="70" y="245" font-family="Arial, sans-serif" font-size="14" fill="white">• 玩家角色完全加密存储</text>
+    <text x="70" y="260" font-family="Arial, sans-serif" font-size="14" fill="white">• 只有玩家本人知道自己的角色</text>
+    <text x="70" y="275" font-family="Arial, sans-serif" font-size="14" fill="white">• 防止作弊和信息泄露</text>
+    
+    <!-- Encrypted Resources -->
+    <rect x="50" y="300" width="400" height="80" rx="10" fill="url(#encryptGradient)" opacity="0.8"/>
+    <text x="70" y="325" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white">加密资源管理</text>
+    <text x="70" y="345" font-family="Arial, sans-serif" font-size="14" fill="white">• 生命值、能量等资源加密</text>
+    <text x="70" y="360" font-family="Arial, sans-serif" font-size="14" fill="white">• 技能冷却时间隐私保护</text>
+    <text x="70" y="375" font-family="Arial, sans-serif" font-size="14" fill="white">• 防止资源状态被恶意利用</text>
+    
+    <!-- Encrypted Voting -->
+    <rect x="50" y="400" width="400" height="80" rx="10" fill="url(#encryptGradient)" opacity="0.7"/>
+    <text x="70" y="425" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white">加密投票系统</text>
+    <text x="70" y="445" font-family="Arial, sans-serif" font-size="14" fill="white">• 投票选择完全保密</text>
+    <text x="70" y="460" font-family="Arial, sans-serif" font-size="14" fill="white">• 防止投票操纵和串通</text>
+    <text x="70" y="475" font-family="Arial, sans-serif" font-size="14" fill="white">• 确保投票公正性</text>
+  </g>
+  
+  <!-- Technical Architecture - Right Side -->
+  <g>
+    <text x="750" y="180" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#2c3e50">⚙️ 技术架构</text>
+    
+    <!-- FHEVM Layer -->
+    <rect x="750" y="200" width="400" height="80" rx="10" fill="url(#fheGradient)" opacity="0.9"/>
+    <text x="770" y="225" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white">FHEVM虚拟机</text>
+    <text x="770" y="245" font-family="Arial, sans-serif" font-size="14" fill="white">• 支持同态加密计算</text>
+    <text x="770" y="260" font-family="Arial, sans-serif" font-size="14" fill="white">• 兼容以太坊EVM</text>
+    <text x="770" y="275" font-family="Arial, sans-serif" font-size="14" fill="white">• Solidity智能合约支持</text>
+    
+    <!-- Smart Contracts -->
+    <rect x="750" y="300" width="400" height="80" rx="10" fill="url(#blockchainGradient)" opacity="0.8"/>
+    <text x="770" y="325" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white">智能合约层</text>
+    <text x="770" y="345" font-family="Arial, sans-serif" font-size="14" fill="white">• GameCore.sol - 游戏核心逻辑</text>
+    <text x="770" y="360" font-family="Arial, sans-serif" font-size="14" fill="white">• RoleSystem.sol - 角色管理</text>
+    <text x="770" y="375" font-family="Arial, sans-serif" font-size="14" fill="white">• VotingSystem.sol - 投票机制</text>
+    
+    <!-- Frontend Integration -->
+    <rect x="750" y="400" width="400" height="80" rx="10" fill="url(#blockchainGradient)" opacity="0.7"/>
+    <text x="770" y="425" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white">前端集成</text>
+    <text x="770" y="445" font-family="Arial, sans-serif" font-size="14" fill="white">• fhEVMJS SDK集成</text>
+    <text x="770" y="460" font-family="Arial, sans-serif" font-size="14" fill="white">• React用户界面</text>
+    <text x="770" y="475" font-family="Arial, sans-serif" font-size="14" fill="white">• Web3钱包连接</text>
+  </g>
+  
+  <!-- Data Flow Diagram -->
+  <g>
+    <text x="600" y="520" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#2c3e50">数据流程图</text>
+    
+    <!-- Player Input -->
+    <rect x="50" y="540" width="120" height="60" rx="8" fill="#74b9ff" stroke="#0984e3" stroke-width="2"/>
+    <text x="110" y="565" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">玩家输入</text>
+    <text x="110" y="580" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">明文数据</text>
+    
+    <!-- Encryption -->
+    <rect x="220" y="540" width="120" height="60" rx="8" fill="#fd79a8" stroke="#e84393" stroke-width="2"/>
+    <text x="280" y="565" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">FHE加密</text>
+    <text x="280" y="580" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">客户端加密</text>
+    
+    <!-- Smart Contract -->
+    <rect x="390" y="540" width="120" height="60" rx="8" fill="#00b894" stroke="#00a085" stroke-width="2"/>
+    <text x="450" y="565" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">智能合约</text>
+    <text x="450" y="580" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">加密计算</text>
+    
+    <!-- FHEVM Processing -->
+    <rect x="560" y="540" width="120" height="60" rx="8" fill="#a29bfe" stroke="#6c5ce7" stroke-width="2"/>
+    <text x="620" y="565" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">FHEVM</text>
+    <text x="620" y="580" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">同态运算</text>
+    
+    <!-- Blockchain Storage -->
+    <rect x="730" y="540" width="120" height="60" rx="8" fill="#fdcb6e" stroke="#e17055" stroke-width="2"/>
+    <text x="790" y="565" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">区块链</text>
+    <text x="790" y="580" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">加密存储</text>
+    
+    <!-- Result Decryption -->
+    <rect x="900" y="540" width="120" height="60" rx="8" fill="#55a3ff" stroke="#2d3436" stroke-width="2"/>
+    <text x="960" y="565" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">结果解密</text>
+    <text x="960" y="580" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">授权查看</text>
+    
+    <!-- Arrows -->
+    <g stroke="#2d3436" stroke-width="3" fill="#2d3436">
+      <line x1="170" y1="570" x2="210" y2="570" marker-end="url(#arrowhead)"/>
+      <line x1="340" y1="570" x2="380" y2="570" marker-end="url(#arrowhead)"/>
+      <line x1="510" y1="570" x2="550" y2="570" marker-end="url(#arrowhead)"/>
+      <line x1="680" y1="570" x2="720" y2="570" marker-end="url(#arrowhead)"/>
+      <line x1="850" y1="570" x2="890" y2="570" marker-end="url(#arrowhead)"/>
+    </g>
+    
+    <!-- Arrow marker definition -->
+    <defs>
+      <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+        <polygon points="0 0, 10 3.5, 0 7" fill="#2d3436"/>
+      </marker>
+    </defs>
+  </g>
+  
+  <!-- Security Benefits -->
+  <rect x="50" y="650" width="1100" height="120" rx="15" fill="rgba(116, 185, 255, 0.1)" stroke="#74b9ff" stroke-width="3"/>
+  <text x="600" y="680" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#2c3e50">🔒 安全优势</text>
+  
+  <g>
+    <text x="100" y="710" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#0984e3">• 零知识证明</text>
+    <text x="100" y="730" font-family="Arial, sans-serif" font-size="14" fill="#636e72">无需暴露敏感信息即可验证</text>
+    
+    <text x="350" y="710" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#0984e3">• 抗量子攻击</text>
+    <text x="350" y="730" font-family="Arial, sans-serif" font-size="14" fill="#636e72">基于格密码学的安全保障</text>
+    
+    <text x="600" y="710" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#0984e3">• 去中心化</text>
+    <text x="600" y="730" font-family="Arial, sans-serif" font-size="14" fill="#636e72">无需信任第三方服务器</text>
+    
+    <text x="850" y="710" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#0984e3">• 透明可验证</text>
+    <text x="850" y="730" font-family="Arial, sans-serif" font-size="14" fill="#636e72">所有操作在链上可审计</text>
+  </g>
+  
+  <!-- Footer -->
+  <rect x="0" y="780" width="1200" height="20" fill="url(#fheGradient)"/>
+  <text x="600" y="795" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">Powered by Zama FHEVM - 下一代隐私保护区块链游戏</text>
+</svg>

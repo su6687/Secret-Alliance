@@ -1,0 +1,146 @@
+<svg width="1600" height="900" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="backgroundGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#764ba2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f093fb;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="titleGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffd700;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ffed4e;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="cardGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.95" />
+      <stop offset="100%" style="stop-color:#f8f9fa;stop-opacity:0.9" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge> 
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="4" dy="6" stdDeviation="4" flood-color="rgba(0,0,0,0.3)"/>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1600" height="900" fill="url(#backgroundGradient)"/>
+  
+  <!-- Decorative Elements -->
+  <circle cx="200" cy="150" r="80" fill="rgba(255,255,255,0.1)" opacity="0.5"/>
+  <circle cx="1400" cy="200" r="120" fill="rgba(255,255,255,0.1)" opacity="0.3"/>
+  <circle cx="1500" cy="700" r="100" fill="rgba(255,255,255,0.1)" opacity="0.4"/>
+  <circle cx="100" cy="800" r="60" fill="rgba(255,255,255,0.1)" opacity="0.6"/>
+  
+  <!-- Main Title Card -->
+  <rect x="200" y="150" width="1200" height="600" rx="30" fill="url(#cardGradient)" stroke="rgba(255,255,255,0.3)" stroke-width="2" filter="url(#shadow)"/>
+  
+  <!-- Project Logo/Icon -->
+  <circle cx="800" cy="280" r="80" fill="url(#titleGradient)" stroke="#f6ad55" stroke-width="4" filter="url(#glow)"/>
+  <text x="800" y="300" text-anchor="middle" font-family="Arial, sans-serif" font-size="60" fill="#2c3e50">🛡️</text>
+  
+  <!-- Main Title -->
+  <text x="800" y="400" text-anchor="middle" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#2c3e50">隐秘联盟</text>
+  <text x="800" y="440" text-anchor="middle" font-family="Arial, sans-serif" font-size="32" fill="#4a5568">Secret Alliance</text>
+  
+  <!-- Subtitle -->
+  <text x="800" y="480" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="#718096">基于FHEVM的隐私保护区块链游戏</text>
+  <text x="800" y="510" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#a0aec0">Privacy-Preserving Blockchain Game on FHEVM</text>
+  
+  <!-- Key Features Row -->
+  <g>
+    <!-- Feature 1: FHE -->
+    <rect x="280" y="560" width="200" height="120" rx="15" fill="rgba(102, 126, 234, 0.1)" stroke="#667eea" stroke-width="2"/>
+    <text x="380" y="590" text-anchor="middle" font-family="Arial, sans-serif" font-size="32" fill="#667eea">🔐</text>
+    <text x="380" y="620" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50">全同态加密</text>
+    <text x="380" y="640" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#718096">完全隐私保护</text>
+    <text x="380" y="655" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#718096">角色身份加密</text>
+    <text x="380" y="670" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#718096">零知识证明</text>
+    
+    <!-- Feature 2: Blockchain -->
+    <rect x="520" y="560" width="200" height="120" rx="15" fill="rgba(79, 172, 254, 0.1)" stroke="#4facfe" stroke-width="2"/>
+    <text x="620" y="590" text-anchor="middle" font-family="Arial, sans-serif" font-size="32" fill="#4facfe">⛓️</text>
+    <text x="620" y="620" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50">区块链技术</text>
+    <text x="620" y="640" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#718096">去中心化游戏</text>
+    <text x="620" y="655" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#718096">智能合约</text>
+    <text x="620" y="670" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#718096">透明可验证</text>
+    
+    <!-- Feature 3: Strategy -->
+    <rect x="760" y="560" width="200" height="120" rx="15" fill="rgba(72, 187, 120, 0.1)" stroke="#48bb78" stroke-width="2"/>
+    <text x="860" y="590" text-anchor="middle" font-family="Arial, sans-serif" font-size="32" fill="#48bb78">🎯</text>
+    <text x="860" y="620" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50">策略博弈</text>
+    <text x="860" y="640" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#718096">五大角色</text>
+    <text x="860" y="655" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#718096">技能系统</text>
+    <text x="860" y="670" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#718096">团队合作</text>
+    
+    <!-- Feature 4: Innovation -->
+    <rect x="1000" y="560" width="200" height="120" rx="15" fill="rgba(237, 137, 54, 0.1)" stroke="#ed8936" stroke-width="2"/>
+    <text x="1100" y="590" text-anchor="middle" font-family="Arial, sans-serif" font-size="32" fill="#ed8936">🚀</text>
+    <text x="1100" y="620" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50">技术创新</text>
+    <text x="1100" y="640" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#718096">FHEVM集成</text>
+    <text x="1100" y="655" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#718096">React前端</text>
+    <text x="1100" y="670" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#718096">Web3钱包</text>
+  </g>
+  
+  <!-- Technology Stack Icons -->
+  <g>
+    <text x="800" y="730" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2c3e50">核心技术栈</text>
+    
+    <!-- Tech Icons Row -->
+    <rect x="400" y="740" width="80" height="30" rx="5" fill="#61dafb" opacity="0.9"/>
+    <text x="440" y="760" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">React</text>
+    
+    <rect x="490" y="740" width="80" height="30" rx="5" fill="#627eea" opacity="0.9"/>
+    <text x="530" y="760" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">Solidity</text>
+    
+    <rect x="580" y="740" width="80" height="30" rx="5" fill="#ff6b6b" opacity="0.9"/>
+    <text x="620" y="760" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">FHEVM</text>
+    
+    <rect x="670" y="740" width="80" height="30" rx="5" fill="#4ecdc4" opacity="0.9"/>
+    <text x="710" y="760" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">fhEVMJS</text>
+    
+    <rect x="760" y="740" width="80" height="30" rx="5" fill="#96ceb4" opacity="0.9"/>
+    <text x="800" y="760" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">TFHE</text>
+    
+    <rect x="850" y="740" width="80" height="30" rx="5" fill="#feca57" opacity="0.9"/>
+    <text x="890" y="760" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">Web3</text>
+    
+    <rect x="940" y="740" width="80" height="30" rx="5" fill="#f7df1e" opacity="0.9"/>
+    <text x="980" y="760" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">TypeScript</text>
+    
+    <rect x="1030" y="740" width="80" height="30" rx="5" fill="#45b7d1" opacity="0.9"/>
+    <text x="1070" y="760" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">Ethereum</text>
+  </g>
+  
+  <!-- Footer Information -->
+  <rect x="0" y="800" width="1600" height="100" fill="rgba(44, 62, 80, 0.9)"/>
+  
+  <!-- Project Info -->
+  <text x="200" y="830" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">项目特点</text>
+  <text x="200" y="850" font-family="Arial, sans-serif" font-size="12" fill="#bdc3c7">• 完全隐私保护的多人在线策略游戏</text>
+  <text x="200" y="870" font-family="Arial, sans-serif" font-size="12" fill="#bdc3c7">• 基于Zama FHEVM的同态加密技术</text>
+  <text x="200" y="890" font-family="Arial, sans-serif" font-size="12" fill="#bdc3c7">• 五大角色，策略博弈，团队合作</text>
+  
+  <!-- Technical Highlights -->
+  <text x="600" y="830" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">技术亮点</text>
+  <text x="600" y="850" font-family="Arial, sans-serif" font-size="12" fill="#bdc3c7">• 角色身份完全加密，防止作弊</text>
+  <text x="600" y="870" font-family="Arial, sans-serif" font-size="12" fill="#bdc3c7">• 投票和技能使用零知识证明</text>
+  <text x="600" y="890" font-family="Arial, sans-serif" font-size="12" fill="#bdc3c7">• 去中心化架构，透明可验证</text>
+  
+  <!-- Innovation Points -->
+  <text x="1000" y="830" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">创新价值</text>
+  <text x="1000" y="850" font-family="Arial, sans-serif" font-size="12" fill="#bdc3c7">• 首个基于FHEVM的隐私游戏</text>
+  <text x="1000" y="870" font-family="Arial, sans-serif" font-size="12" fill="#bdc3c7">• 区块链游戏隐私保护新标准</text>
+  <text x="1000" y="890" font-family="Arial, sans-serif" font-size="12" fill="#bdc3c7">• 下一代Web3游戏技术示范</text>
+  
+  <!-- Decorative Border -->
+  <rect x="0" y="0" width="1600" height="900" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="4"/>
+  
+  <!-- Corner Decorations -->
+  <circle cx="50" cy="50" r="20" fill="rgba(255,255,255,0.3)"/>
+  <circle cx="1550" cy="50" r="20" fill="rgba(255,255,255,0.3)"/>
+  <circle cx="50" cy="850" r="20" fill="rgba(255,255,255,0.3)"/>
+  <circle cx="1550" cy="850" r="20" fill="rgba(255,255,255,0.3)"/>
+</svg>

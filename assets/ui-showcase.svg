@@ -1,0 +1,280 @@
+<svg width="1400" height="900" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="headerGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="cardGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f8f9fa;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="buttonGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4facfe;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00f2fe;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="2" dy="4" stdDeviation="3" flood-color="rgba(0,0,0,0.3)"/>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1400" height="900" fill="#f1f3f4"/>
+  
+  <!-- Title -->
+  <rect x="0" y="0" width="1400" height="80" fill="url(#headerGradient)"/>
+  <text x="700" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="white">隐秘联盟 - 用户界面展示</text>
+  <text x="700" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="rgba(255,255,255,0.9)">React前端界面 + Web3钱包集成</text>
+  
+  <!-- HomePage Mock-up -->
+  <g>
+    <text x="50" y="120" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#2c3e50">🏠 主页界面 (HomePage)</text>
+    
+    <!-- HomePage Container -->
+    <rect x="50" y="140" width="400" height="300" rx="10" fill="url(#cardGradient)" stroke="#e2e8f0" stroke-width="2" filter="url(#shadow)"/>
+    
+    <!-- Header Section -->
+    <rect x="60" y="150" width="380" height="60" rx="5" fill="url(#headerGradient)"/>
+    <text x="250" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white">隐秘联盟</text>
+    <text x="250" y="195" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="rgba(255,255,255,0.8)">Secret Alliance</text>
+    
+    <!-- Wallet Connection Status -->
+    <rect x="70" y="220" width="360" height="40" rx="5" fill="#e8f5e8" stroke="#38a169" stroke-width="1"/>
+    <circle cx="90" cy="240" r="6" fill="#38a169"/>
+    <text x="110" y="245" font-family="Arial, sans-serif" font-size="14" fill="#2f855a">钱包已连接: 0x1234...5678</text>
+    
+    <!-- Game Features -->
+    <text x="70" y="285" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50">游戏特色</text>
+    <text x="70" y="305" font-family="Arial, sans-serif" font-size="12" fill="#718096">• 完全隐私保护的角色身份</text>
+    <text x="70" y="320" font-family="Arial, sans-serif" font-size="12" fill="#718096">• 加密投票和资源管理</text>
+    <text x="70" y="335" font-family="Arial, sans-serif" font-size="12" fill="#718096">• 基于FHEVM的区块链技术</text>
+    
+    <!-- Action Buttons -->
+    <rect x="70" y="350" width="120" height="35" rx="5" fill="url(#buttonGradient)" stroke="#4299e1" stroke-width="1"/>
+    <text x="130" y="372" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">创建房间</text>
+    
+    <rect x="200" y="350" width="120" height="35" rx="5" fill="#48bb78" stroke="#38a169" stroke-width="1"/>
+    <text x="260" y="372" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">加入房间</text>
+    
+    <rect x="330" y="350" width="100" height="35" rx="5" fill="#ed8936" stroke="#dd6b20" stroke-width="1"/>
+    <text x="380" y="372" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">游戏规则</text>
+  </g>
+  
+  <!-- GameLobby Mock-up -->
+  <g>
+    <text x="500" y="120" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#2c3e50">🎮 游戏大厅 (GameLobby)</text>
+    
+    <!-- GameLobby Container -->
+    <rect x="500" y="140" width="400" height="300" rx="10" fill="url(#cardGradient)" stroke="#e2e8f0" stroke-width="2" filter="url(#shadow)"/>
+    
+    <!-- Room List Header -->
+    <rect x="510" y="150" width="380" height="40" rx="5" fill="#edf2f7"/>
+    <text x="700" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50">可用房间列表</text>
+    
+    <!-- Room Items -->
+    <rect x="520" y="200" width="360" height="50" rx="5" fill="#f7fafc" stroke="#e2e8f0" stroke-width="1"/>
+    <text x="530" y="220" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">房间 #001</text>
+    <text x="530" y="235" font-family="Arial, sans-serif" font-size="12" fill="#718096">玩家: 3/5 | 状态: 等待中</text>
+    <rect x="820" y="210" width="50" height="25" rx="3" fill="#48bb78"/>
+    <text x="845" y="227" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">加入</text>
+    
+    <rect x="520" y="260" width="360" height="50" rx="5" fill="#f7fafc" stroke="#e2e8f0" stroke-width="1"/>
+    <text x="530" y="280" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">房间 #002</text>
+    <text x="530" y="295" font-family="Arial, sans-serif" font-size="12" fill="#718096">玩家: 5/5 | 状态: 游戏中</text>
+    <rect x="820" y="270" width="50" height="25" rx="3" fill="#a0aec0"/>
+    <text x="845" y="287" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">已满</text>
+    
+    <rect x="520" y="320" width="360" height="50" rx="5" fill="#f7fafc" stroke="#e2e8f0" stroke-width="1"/>
+    <text x="530" y="340" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">房间 #003</text>
+    <text x="530" y="355" font-family="Arial, sans-serif" font-size="12" fill="#718096">玩家: 1/5 | 状态: 等待中</text>
+    <rect x="820" y="330" width="50" height="25" rx="3" fill="#48bb78"/>
+    <text x="845" y="347" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">加入</text>
+    
+    <!-- Create Room Button -->
+    <rect x="520" y="390" width="360" height="40" rx="5" fill="url(#buttonGradient)"/>
+    <text x="700" y="415" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">+ 创建新房间</text>
+  </g>
+  
+  <!-- GameRoom Mock-up -->
+  <g>
+    <text x="950" y="120" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#2c3e50">🎯 游戏房间 (GameRoom)</text>
+    
+    <!-- GameRoom Container -->
+    <rect x="950" y="140" width="400" height="300" rx="10" fill="url(#cardGradient)" stroke="#e2e8f0" stroke-width="2" filter="url(#shadow)"/>
+    
+    <!-- Game Status -->
+    <rect x="960" y="150" width="380" height="40" rx="5" fill="#fed7d7" stroke="#fc8181" stroke-width="1"/>
+    <text x="1150" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#c53030">游戏阶段: 白天讨论</text>
+    
+    <!-- Timer -->
+    <rect x="960" y="200" width="380" height="30" rx="5" fill="#bee3f8" stroke="#4299e1" stroke-width="1"/>
+    <text x="1150" y="220" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#2c5282">剩余时间: 02:45</text>
+    
+    <!-- Player List -->
+    <text x="970" y="250" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">玩家列表</text>
+    
+    <rect x="970" y="260" width="170" height="25" rx="3" fill="#c6f6d5" stroke="#38a169" stroke-width="1"/>
+    <text x="980" y="277" font-family="Arial, sans-serif" font-size="12" fill="#2f855a">玩家1 (你) - 存活</text>
+    
+    <rect x="1150" y="260" width="170" height="25" rx="3" fill="#fed7d7" stroke="#fc8181" stroke-width="1"/>
+    <text x="1160" y="277" font-family="Arial, sans-serif" font-size="12" fill="#c53030">玩家2 - 已淘汰</text>
+    
+    <rect x="970" y="290" width="170" height="25" rx="3" fill="#c6f6d5" stroke="#38a169" stroke-width="1"/>
+    <text x="980" y="307" font-family="Arial, sans-serif" font-size="12" fill="#2f855a">玩家3 - 存活</text>
+    
+    <rect x="1150" y="290" width="170" height="25" rx="3" fill="#c6f6d5" stroke="#38a169" stroke-width="1"/>
+    <text x="1160" y="307" font-family="Arial, sans-serif" font-size="12" fill="#2f855a">玩家4 - 存活</text>
+    
+    <!-- Action Buttons -->
+    <rect x="970" y="330" width="100" height="30" rx="5" fill="#e53e3e"/>
+    <text x="1020" y="350" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">投票淘汰</text>
+    
+    <rect x="1080" y="330" width="100" height="30" rx="5" fill="#805ad5"/>
+    <text x="1130" y="350" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">使用技能</text>
+    
+    <rect x="1190" y="330" width="100" height="30" rx="5" fill="#38a169"/>
+    <text x="1240" y="350" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">查看信息</text>
+    
+    <!-- Role Info (Hidden) -->
+    <rect x="970" y="370" width="350" height="60" rx="5" fill="#ffd700" opacity="0.3" stroke="#f6ad55" stroke-width="2"/>
+    <text x="980" y="390" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#8b4513">🔐 你的角色: 守护者 (仅你可见)</text>
+    <text x="980" y="405" font-family="Arial, sans-serif" font-size="12" fill="#8b4513">技能: 保护技能 | 冷却: 1回合 | 剩余使用: 2次</text>
+    <text x="980" y="420" font-family="Arial, sans-serif" font-size="12" fill="#8b4513">目标: 保护其他玩家免受渗透者攻击</text>
+  </g>
+  
+  <!-- ProfilePage Mock-up -->
+  <g>
+    <text x="50" y="480" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#2c3e50">👤 个人资料 (ProfilePage)</text>
+    
+    <!-- ProfilePage Container -->
+    <rect x="50" y="500" width="400" height="250" rx="10" fill="url(#cardGradient)" stroke="#e2e8f0" stroke-width="2" filter="url(#shadow)"/>
+    
+    <!-- Profile Header -->
+    <circle cx="120" cy="540" r="30" fill="url(#buttonGradient)" stroke="#4299e1" stroke-width="3"/>
+    <text x="120" y="550" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="white">👤</text>
+    
+    <text x="170" y="535" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2c3e50">玩家档案</text>
+    <text x="170" y="555" font-family="Arial, sans-serif" font-size="14" fill="#718096">钱包: 0x1234...5678</text>
+    
+    <!-- Stats -->
+    <text x="70" y="590" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50">游戏统计</text>
+    
+    <rect x="70" y="600" width="150" height="40" rx="5" fill="#e6fffa" stroke="#38b2ac" stroke-width="1"/>
+    <text x="80" y="615" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c7a7b">总游戏场次</text>
+    <text x="80" y="630" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2c7a7b">42</text>
+    
+    <rect x="230" y="600" width="150" height="40" rx="5" fill="#f0fff4" stroke="#48bb78" stroke-width="1"/>
+    <text x="240" y="615" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2f855a">胜利次数</text>
+    <text x="240" y="630" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2f855a">28</text>
+    
+    <rect x="70" y="650" width="150" height="40" rx="5" fill="#fef5e7" stroke="#ed8936" stroke-width="1"/>
+    <text x="80" y="665" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#c05621">胜率</text>
+    <text x="80" y="680" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#c05621">66.7%</text>
+    
+    <rect x="230" y="650" width="150" height="40" rx="5" fill="#e6fffa" stroke="#38b2ac" stroke-width="1"/>
+    <text x="240" y="665" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c7a7b">最喜欢角色</text>
+    <text x="240" y="680" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2c7a7b">守护者</text>
+    
+    <!-- Achievement -->
+    <rect x="70" y="700" width="310" height="30" rx="5" fill="#ffd700" opacity="0.3" stroke="#f6ad55" stroke-width="1"/>
+    <text x="80" y="720" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#8b4513">🏆 成就: 守护天使 - 成功保护队友50次</text>
+  </g>
+  
+  <!-- HowToPlay Mock-up -->
+  <g>
+    <text x="500" y="480" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#2c3e50">📖 游戏规则 (HowToPlay)</text>
+    
+    <!-- HowToPlay Container -->
+    <rect x="500" y="500" width="400" height="250" rx="10" fill="url(#cardGradient)" stroke="#e2e8f0" stroke-width="2" filter="url(#shadow)"/>
+    
+    <!-- Rules Header -->
+    <rect x="510" y="510" width="380" height="40" rx="5" fill="#edf2f7"/>
+    <text x="700" y="535" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50">游戏规则说明</text>
+    
+    <!-- Rule Sections -->
+    <text x="520" y="570" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">🎯 游戏目标</text>
+    <text x="520" y="585" font-family="Arial, sans-serif" font-size="12" fill="#718096">• 守护者: 找出并投票淘汰所有渗透者</text>
+    <text x="520" y="600" font-family="Arial, sans-serif" font-size="12" fill="#718096">• 渗透者: 消灭足够多的守护者获得胜利</text>
+    
+    <text x="520" y="625" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">⏰ 游戏流程</text>
+    <text x="520" y="640" font-family="Arial, sans-serif" font-size="12" fill="#718096">1. 角色分配 → 2. 白天讨论 → 3. 投票淘汰</text>
+    <text x="520" y="655" font-family="Arial, sans-serif" font-size="12" fill="#718096">4. 夜晚行动 → 5. 技能使用 → 6. 结算判定</text>
+    
+    <text x="520" y="680" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">🔐 隐私保护</text>
+    <text x="520" y="695" font-family="Arial, sans-serif" font-size="12" fill="#718096">• 所有角色身份完全加密，只有本人知道</text>
+    <text x="520" y="710" font-family="Arial, sans-serif" font-size="12" fill="#718096">• 投票和技能使用采用零知识证明</text>
+    
+    <!-- Navigation Buttons -->
+    <rect x="520" y="720" width="80" height="25" rx="3" fill="#4299e1"/>
+    <text x="560" y="737" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">角色介绍</text>
+    
+    <rect x="610" y="720" width="80" height="25" rx="3" fill="#48bb78"/>
+    <text x="650" y="737" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">技能说明</text>
+    
+    <rect x="700" y="720" width="80" height="25" rx="3" fill="#ed8936"/>
+    <text x="740" y="737" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">胜利条件</text>
+  </g>
+  
+  <!-- Web3 Integration Panel -->
+  <g>
+    <text x="950" y="480" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#2c3e50">🔗 Web3集成</text>
+    
+    <!-- Web3 Container -->
+    <rect x="950" y="500" width="400" height="250" rx="10" fill="url(#cardGradient)" stroke="#e2e8f0" stroke-width="2" filter="url(#shadow)"/>
+    
+    <!-- Wallet Connection -->
+    <rect x="960" y="510" width="380" height="50" rx="5" fill="#e6fffa" stroke="#38b2ac" stroke-width="1"/>
+    <text x="970" y="530" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c7a7b">💼 钱包连接状态</text>
+    <text x="970" y="545" font-family="Arial, sans-serif" font-size="12" fill="#2c7a7b">MetaMask已连接 | 网络: FHEVM Testnet</text>
+    <circle cx="1320" cy="535" r="8" fill="#38a169"/>
+    
+    <!-- Smart Contract Interaction -->
+    <text x="970" y="585" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">📋 智能合约交互</text>
+    
+    <rect x="970" y="595" width="170" height="35" rx="3" fill="#f7fafc" stroke="#e2e8f0" stroke-width="1"/>
+    <text x="980" y="610" font-family="Arial, sans-serif" font-size="12" fill="#4a5568">GameCore.sol</text>
+    <text x="980" y="622" font-family="Arial, sans-serif" font-size="10" fill="#718096">游戏核心逻辑</text>
+    
+    <rect x="1150" y="595" width="170" height="35" rx="3" fill="#f7fafc" stroke="#e2e8f0" stroke-width="1"/>
+    <text x="1160" y="610" font-family="Arial, sans-serif" font-size="12" fill="#4a5568">RoleSystem.sol</text>
+    <text x="1160" y="622" font-family="Arial, sans-serif" font-size="10" fill="#718096">角色管理系统</text>
+    
+    <rect x="970" y="640" width="170" height="35" rx="3" fill="#f7fafc" stroke="#e2e8f0" stroke-width="1"/>
+    <text x="980" y="655" font-family="Arial, sans-serif" font-size="12" fill="#4a5568">VotingSystem.sol</text>
+    <text x="980" y="667" font-family="Arial, sans-serif" font-size="10" fill="#718096">投票机制</text>
+    
+    <!-- FHE Integration -->
+    <rect x="970" y="685" width="350" height="50" rx="5" fill="#ffd700" opacity="0.3" stroke="#f6ad55" stroke-width="2"/>
+    <text x="980" y="705" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#8b4513">🔐 FHE加密集成</text>
+    <text x="980" y="720" font-family="Arial, sans-serif" font-size="12" fill="#8b4513">fhEVMJS SDK | TFHE库 | 客户端加密/解密</text>
+  </g>
+  
+  <!-- Footer -->
+  <rect x="0" y="780" width="1400" height="120" fill="#2c3e50"/>
+  <text x="700" y="820" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white">技术栈总览</text>
+  
+  <g>
+    <rect x="100" y="840" width="120" height="30" rx="5" fill="#61dafb"/>
+    <text x="160" y="860" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">React</text>
+    
+    <rect x="240" y="840" width="120" height="30" rx="5" fill="#f7df1e"/>
+    <text x="300" y="860" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">TypeScript</text>
+    
+    <rect x="380" y="840" width="120" height="30" rx="5" fill="#627eea"/>
+    <text x="440" y="860" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">Web3.js</text>
+    
+    <rect x="520" y="840" width="120" height="30" rx="5" fill="#ff6b6b"/>
+    <text x="580" y="860" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">FHEVM</text>
+    
+    <rect x="660" y="840" width="120" height="30" rx="5" fill="#4ecdc4"/>
+    <text x="720" y="860" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">fhEVMJS</text>
+    
+    <rect x="800" y="840" width="120" height="30" rx="5" fill="#45b7d1"/>
+    <text x="860" y="860" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">Solidity</text>
+    
+    <rect x="940" y="840" width="120" height="30" rx="5" fill="#96ceb4"/>
+    <text x="1000" y="860" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">TFHE</text>
+    
+    <rect x="1080" y="840" width="120" height="30" rx="5" fill="#feca57"/>
+    <text x="1140" y="860" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">MetaMask</text>
+  </g>
+</svg>

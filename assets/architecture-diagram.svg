@@ -1,0 +1,84 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f093fb;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f5576c;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4facfe;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00f2fe;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grad4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#43e97b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#38f9d7;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#2c3e50">隐秘联盟技术架构图</text>
+  
+  <!-- Frontend Layer -->
+  <rect x="50" y="80" width="700" height="100" rx="10" fill="url(#grad1)" stroke="#5a67d8" stroke-width="2"/>
+  <text x="400" y="110" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white">前端应用层</text>
+  <text x="400" y="135" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="white">React + TypeScript + Material-UI + fhEVMJS</text>
+  <text x="400" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">用户界面 | 钱包连接 | 游戏交互 | 数据加密</text>
+  
+  <!-- Arrow 1 -->
+  <polygon points="390,190 410,190 400,210" fill="#34495e"/>
+  <text x="420" y="205" font-family="Arial, sans-serif" font-size="12" fill="#34495e">Web3 连接</text>
+  
+  <!-- Smart Contract Layer -->
+  <rect x="50" y="220" width="700" height="100" rx="10" fill="url(#grad2)" stroke="#e53e3e" stroke-width="2"/>
+  <text x="400" y="250" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white">智能合约层</text>
+  <text x="400" y="275" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="white">GameCore.sol + RoleSystem.sol + VotingSystem.sol</text>
+  <text x="400" y="295" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">游戏逻辑 | 角色管理 | 投票系统 | 状态管理</text>
+  
+  <!-- Arrow 2 -->
+  <polygon points="390,330 410,330 400,350" fill="#34495e"/>
+  <text x="420" y="345" font-family="Arial, sans-serif" font-size="12" fill="#34495e">TFHE 库</text>
+  
+  <!-- FHE Coprocessor Layer -->
+  <rect x="50" y="360" width="700" height="100" rx="10" fill="url(#grad3)" stroke="#3182ce" stroke-width="2"/>
+  <text x="400" y="390" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white">FHE协处理器</text>
+  <text x="400" y="415" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="white">全同态加密计算引擎</text>
+  <text x="400" y="435" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">加密计算 | 隐私保护 | 数据处理 | 结果验证</text>
+  
+  <!-- Arrow 3 -->
+  <polygon points="390,470 410,470 400,490" fill="#34495e"/>
+  <text x="420" y="485" font-family="Arial, sans-serif" font-size="12" fill="#34495e">加密数据</text>
+  
+  <!-- Blockchain Layer -->
+  <rect x="50" y="500" width="700" height="80" rx="10" fill="url(#grad4)" stroke="#38a169" stroke-width="2"/>
+  <text x="400" y="530" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white">区块链网络</text>
+  <text x="400" y="555" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="white">EVM兼容链 - 数据存储与共识</text>
+  
+  <!-- Side annotations -->
+  <g>
+    <!-- Privacy Protection -->
+    <rect x="760" y="200" width="30" height="200" rx="5" fill="#ffd700" opacity="0.8"/>
+    <text x="775" y="220" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#8b4513" transform="rotate(90 775 220)">隐私保护</text>
+  </g>
+  
+  <!-- Data Flow Indicators -->
+  <g>
+    <!-- Encryption indicators -->
+    <circle cx="100" cy="130" r="8" fill="#ffd700"/>
+    <text x="100" y="135" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#8b4513">🔐</text>
+    
+    <circle cx="100" cy="270" r="8" fill="#ffd700"/>
+    <text x="100" y="275" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#8b4513">🔐</text>
+    
+    <circle cx="100" cy="410" r="8" fill="#ffd700"/>
+    <text x="100" y="415" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#8b4513">🔐</text>
+    
+    <circle cx="100" cy="540" r="8" fill="#ffd700"/>
+    <text x="100" y="545" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#8b4513">🔐</text>
+  </g>
+</svg>

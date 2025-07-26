@@ -1,0 +1,174 @@
+<svg width="1000" height="800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="guardian" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4299e1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3182ce;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="infiltrator" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e53e3e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c53030;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="detective" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#38a169;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2f855a;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="merchant" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#d69e2e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#b7791f;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="hacker" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#805ad5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#6b46c1;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1000" height="800" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="500" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#2c3e50">隐秘联盟 - 角色系统</text>
+  <text x="500" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#718096">五大角色，各具特色，策略博弈</text>
+  
+  <!-- Guardian -->
+  <g>
+    <rect x="50" y="120" width="180" height="280" rx="15" fill="url(#guardian)" stroke="#3182ce" stroke-width="3"/>
+    <circle cx="140" cy="170" r="30" fill="rgba(255,255,255,0.2)" stroke="white" stroke-width="2"/>
+    <text x="140" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="white">🛡️</text>
+    
+    <text x="140" y="220" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="white">守护者</text>
+    <text x="140" y="240" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="white">Guardian</text>
+    
+    <rect x="60" y="250" width="160" height="2" fill="rgba(255,255,255,0.5)"/>
+    
+    <text x="70" y="275" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">阵营：正义方</text>
+    <text x="70" y="295" font-family="Arial, sans-serif" font-size="12" fill="white">目标：保护其他玩家</text>
+    <text x="70" y="315" font-family="Arial, sans-serif" font-size="12" fill="white">技能：保护技能</text>
+    <text x="70" y="335" font-family="Arial, sans-serif" font-size="12" fill="white">冷却：2回合</text>
+    <text x="70" y="355" font-family="Arial, sans-serif" font-size="12" fill="white">使用次数：3次</text>
+    <text x="70" y="375" font-family="Arial, sans-serif" font-size="12" fill="white">特点：防御型角色</text>
+  </g>
+  
+  <!-- Infiltrator -->
+  <g>
+    <rect x="250" y="120" width="180" height="280" rx="15" fill="url(#infiltrator)" stroke="#c53030" stroke-width="3"/>
+    <circle cx="340" cy="170" r="30" fill="rgba(255,255,255,0.2)" stroke="white" stroke-width="2"/>
+    <text x="340" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="white">🗡️</text>
+    
+    <text x="340" y="220" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="white">渗透者</text>
+    <text x="340" y="240" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="white">Infiltrator</text>
+    
+    <rect x="260" y="250" width="160" height="2" fill="rgba(255,255,255,0.5)"/>
+    
+    <text x="270" y="275" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">阵营：邪恶方</text>
+    <text x="270" y="295" font-family="Arial, sans-serif" font-size="12" fill="white">目标：消灭守护者</text>
+    <text x="270" y="315" font-family="Arial, sans-serif" font-size="12" fill="white">技能：消除技能</text>
+    <text x="270" y="335" font-family="Arial, sans-serif" font-size="12" fill="white">冷却：1回合</text>
+    <text x="270" y="355" font-family="Arial, sans-serif" font-size="12" fill="white">使用次数：2次</text>
+    <text x="270" y="375" font-family="Arial, sans-serif" font-size="12" fill="white">特点：攻击型角色</text>
+  </g>
+  
+  <!-- Detective -->
+  <g>
+    <rect x="450" y="120" width="180" height="280" rx="15" fill="url(#detective)" stroke="#2f855a" stroke-width="3"/>
+    <circle cx="540" cy="170" r="30" fill="rgba(255,255,255,0.2)" stroke="white" stroke-width="2"/>
+    <text x="540" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="white">🔍</text>
+    
+    <text x="540" y="220" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="white">侦探</text>
+    <text x="540" y="240" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="white">Detective</text>
+    
+    <rect x="460" y="250" width="160" height="2" fill="rgba(255,255,255,0.5)"/>
+    
+    <text x="470" y="275" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">阵营：正义方</text>
+    <text x="470" y="295" font-family="Arial, sans-serif" font-size="12" fill="white">目标：调查身份</text>
+    <text x="470" y="315" font-family="Arial, sans-serif" font-size="12" fill="white">技能：调查技能</text>
+    <text x="470" y="335" font-family="Arial, sans-serif" font-size="12" fill="white">冷却：1回合</text>
+    <text x="470" y="355" font-family="Arial, sans-serif" font-size="12" fill="white">使用次数：3次</text>
+    <text x="470" y="375" font-family="Arial, sans-serif" font-size="12" fill="white">特点：信息型角色</text>
+  </g>
+  
+  <!-- Merchant -->
+  <g>
+    <rect x="650" y="120" width="180" height="280" rx="15" fill="url(#merchant)" stroke="#b7791f" stroke-width="3"/>
+    <circle cx="740" cy="170" r="30" fill="rgba(255,255,255,0.2)" stroke="white" stroke-width="2"/>
+    <text x="740" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="white">💰</text>
+    
+    <text x="740" y="220" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="white">商人</text>
+    <text x="740" y="240" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="white">Merchant</text>
+    
+    <rect x="660" y="250" width="160" height="2" fill="rgba(255,255,255,0.5)"/>
+    
+    <text x="670" y="275" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">阵营：中立</text>
+    <text x="670" y="295" font-family="Arial, sans-serif" font-size="12" fill="white">目标：资源交易</text>
+    <text x="670" y="315" font-family="Arial, sans-serif" font-size="12" fill="white">技能：交易技能</text>
+    <text x="670" y="335" font-family="Arial, sans-serif" font-size="12" fill="white">冷却：无</text>
+    <text x="670" y="355" font-family="Arial, sans-serif" font-size="12" fill="white">使用次数：5次</text>
+    <text x="670" y="375" font-family="Arial, sans-serif" font-size="12" fill="white">特点：支援型角色</text>
+  </g>
+  
+  <!-- Hacker (centered below) -->
+  <g>
+    <rect x="350" y="450" width="180" height="280" rx="15" fill="url(#hacker)" stroke="#6b46c1" stroke-width="3"/>
+    <circle cx="440" cy="500" r="30" fill="rgba(255,255,255,0.2)" stroke="white" stroke-width="2"/>
+    <text x="440" y="510" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="white">💻</text>
+    
+    <text x="440" y="550" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="white">黑客</text>
+    <text x="440" y="570" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="white">Hacker</text>
+    
+    <rect x="360" y="580" width="160" height="2" fill="rgba(255,255,255,0.5)"/>
+    
+    <text x="370" y="605" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">阵营：中立</text>
+    <text x="370" y="625" font-family="Arial, sans-serif" font-size="12" fill="white">目标：干扰游戏</text>
+    <text x="370" y="645" font-family="Arial, sans-serif" font-size="12" fill="white">技能：黑客攻击</text>
+    <text x="370" y="665" font-family="Arial, sans-serif" font-size="12" fill="white">冷却：3回合</text>
+    <text x="370" y="685" font-family="Arial, sans-serif" font-size="12" fill="white">使用次数：2次</text>
+    <text x="370" y="705" font-family="Arial, sans-serif" font-size="12" fill="white">特点：干扰型角色</text>
+  </g>
+  
+  <!-- Faction Legend -->
+  <g>
+    <text x="100" y="450" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2c3e50">阵营说明</text>
+    
+    <circle cx="70" cy="480" r="8" fill="#4299e1"/>
+    <text x="90" y="485" font-family="Arial, sans-serif" font-size="14" fill="#2c3e50">正义方 - 守护者、侦探</text>
+    
+    <circle cx="70" cy="510" r="8" fill="#e53e3e"/>
+    <text x="90" y="515" font-family="Arial, sans-serif" font-size="14" fill="#2c3e50">邪恶方 - 渗透者</text>
+    
+    <circle cx="70" cy="540" r="8" fill="#d69e2e"/>
+    <text x="90" y="545" font-family="Arial, sans-serif" font-size="14" fill="#2c3e50">中立方 - 商人、黑客</text>
+  </g>
+  
+  <!-- Skill Legend -->
+  <g>
+    <text x="650" y="450" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2c3e50">技能类型</text>
+    
+    <rect x="620" y="470" width="15" height="15" fill="#4299e1"/>
+    <text x="645" y="482" font-family="Arial, sans-serif" font-size="14" fill="#2c3e50">保护技能 - 防止目标被消除</text>
+    
+    <rect x="620" y="500" width="15" height="15" fill="#e53e3e"/>
+    <text x="645" y="512" font-family="Arial, sans-serif" font-size="14" fill="#2c3e50">消除技能 - 消除目标玩家</text>
+    
+    <rect x="620" y="530" width="15" height="15" fill="#38a169"/>
+    <text x="645" y="542" font-family="Arial, sans-serif" font-size="14" fill="#2c3e50">调查技能 - 获取角色信息</text>
+    
+    <rect x="620" y="560" width="15" height="15" fill="#d69e2e"/>
+    <text x="645" y="572" font-family="Arial, sans-serif" font-size="14" fill="#2c3e50">交易技能 - 资源交换</text>
+    
+    <rect x="620" y="590" width="15" height="15" fill="#805ad5"/>
+    <text x="645" y="602" font-family="Arial, sans-serif" font-size="14" fill="#2c3e50">黑客技能 - 干扰行动</text>
+  </g>
+  
+  <!-- Privacy Features Box -->
+  <rect x="50" y="750" width="900" height="40" rx="5" fill="#ffd700" opacity="0.3" stroke="#f6ad55" stroke-width="2"/>
+  <text x="70" y="770" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#8b4513">🔐 隐私保护：所有角色身份、技能使用、目标选择均采用FHE加密，确保游戏公平性</text>
+  
+  <!-- Connecting lines between roles -->
+  <g stroke="#e2e8f0" stroke-width="2" stroke-dasharray="5,5" opacity="0.5">
+    <!-- Guardian to Detective (same faction) -->
+    <line x1="230" y1="260" x2="450" y2="260"/>
+    
+    <!-- Merchant to Hacker (same faction) -->
+    <line x1="650" y1="350" x2="530" y2="450"/>
+    <line x1="350" y1="450" x2="250" y2="350"/>
+  </g>
+</svg>
